@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB98DDC11CE994E300BCAB84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB98DDC01CE994E300BCAB84 /* main.m */; };
+		CB98DDC41CE994E300BCAB84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB98DDC31CE994E300BCAB84 /* AppDelegate.m */; };
+		CB98DDC71CE994E300BCAB84 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB98DDC61CE994E300BCAB84 /* ViewController.m */; };
+		CB98DDCA1CE994E300BCAB84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB98DDC81CE994E300BCAB84 /* Main.storyboard */; };
+		CB98DDCC1CE994E300BCAB84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB98DDCB1CE994E300BCAB84 /* Assets.xcassets */; };
+		CB98DDCF1CE994E300BCAB84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB98DDCD1CE994E300BCAB84 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CB98DDBC1CE994E300BCAB84 /* FractionCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FractionCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB98DDC01CE994E300BCAB84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB98DDC21CE994E300BCAB84 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB98DDC31CE994E300BCAB84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB98DDC51CE994E300BCAB84 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CB98DDC61CE994E300BCAB84 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CB98DDC91CE994E300BCAB84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB98DDCB1CE994E300BCAB84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB98DDCE1CE994E300BCAB84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB98DDD01CE994E300BCAB84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB98DDB91CE994E300BCAB84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB98DDB31CE994E300BCAB84 = {
+			isa = PBXGroup;
+			children = (
+				CB98DDBE1CE994E300BCAB84 /* FractionCalculator */,
+				CB98DDBD1CE994E300BCAB84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB98DDBD1CE994E300BCAB84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB98DDBC1CE994E300BCAB84 /* FractionCalculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB98DDBE1CE994E300BCAB84 /* FractionCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				CB98DDC21CE994E300BCAB84 /* AppDelegate.h */,
+				CB98DDC31CE994E300BCAB84 /* AppDelegate.m */,
+				CB98DDC51CE994E300BCAB84 /* ViewController.h */,
+				CB98DDC61CE994E300BCAB84 /* ViewController.m */,
+				CB98DDC81CE994E300BCAB84 /* Main.storyboard */,
+				CB98DDCB1CE994E300BCAB84 /* Assets.xcassets */,
+				CB98DDCD1CE994E300BCAB84 /* LaunchScreen.storyboard */,
+				CB98DDD01CE994E300BCAB84 /* Info.plist */,
+				CB98DDBF1CE994E300BCAB84 /* Supporting Files */,
+			);
+			path = FractionCalculator;
+			sourceTree = "<group>";
+		};
+		CB98DDBF1CE994E300BCAB84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB98DDC01CE994E300BCAB84 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB98DDBB1CE994E300BCAB84 /* FractionCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB98DDD31CE994E300BCAB84 /* Build configuration list for PBXNativeTarget "FractionCalculator" */;
+			buildPhases = (
+				CB98DDB81CE994E300BCAB84 /* Sources */,
+				CB98DDB91CE994E300BCAB84 /* Frameworks */,
+				CB98DDBA1CE994E300BCAB84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FractionCalculator;
+			productName = FractionCalculator;
+			productReference = CB98DDBC1CE994E300BCAB84 /* FractionCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB98DDB41CE994E300BCAB84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "MF839-012";
+				TargetAttributes = {
+					CB98DDBB1CE994E300BCAB84 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = CB98DDB71CE994E300BCAB84 /* Build configuration list for PBXProject "FractionCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB98DDB31CE994E300BCAB84;
+			productRefGroup = CB98DDBD1CE994E300BCAB84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB98DDBB1CE994E300BCAB84 /* FractionCalculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB98DDBA1CE994E300BCAB84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB98DDCF1CE994E300BCAB84 /* LaunchScreen.storyboard in Resources */,
+				CB98DDCC1CE994E300BCAB84 /* Assets.xcassets in Resources */,
+				CB98DDCA1CE994E300BCAB84 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB98DDB81CE994E300BCAB84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB98DDC71CE994E300BCAB84 /* ViewController.m in Sources */,
+				CB98DDC41CE994E300BCAB84 /* AppDelegate.m in Sources */,
+				CB98DDC11CE994E300BCAB84 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CB98DDC81CE994E300BCAB84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB98DDC91CE994E300BCAB84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB98DDCD1CE994E300BCAB84 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB98DDCE1CE994E300BCAB84 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB98DDD11CE994E300BCAB84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CB98DDD21CE994E300BCAB84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB98DDD41CE994E300BCAB84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FractionCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sds.calculator.FractionCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CB98DDD51CE994E300BCAB84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FractionCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sds.calculator.FractionCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB98DDB71CE994E300BCAB84 /* Build configuration list for PBXProject "FractionCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB98DDD11CE994E300BCAB84 /* Debug */,
+				CB98DDD21CE994E300BCAB84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB98DDD31CE994E300BCAB84 /* Build configuration list for PBXNativeTarget "FractionCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB98DDD41CE994E300BCAB84 /* Debug */,
+				CB98DDD51CE994E300BCAB84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB98DDB41CE994E300BCAB84 /* Project object */;
+}
