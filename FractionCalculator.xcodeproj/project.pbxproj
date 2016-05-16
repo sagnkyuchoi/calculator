@@ -13,6 +13,8 @@
 		CB98DDCA1CE994E300BCAB84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB98DDC81CE994E300BCAB84 /* Main.storyboard */; };
 		CB98DDCC1CE994E300BCAB84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB98DDCB1CE994E300BCAB84 /* Assets.xcassets */; };
 		CB98DDCF1CE994E300BCAB84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB98DDCD1CE994E300BCAB84 /* LaunchScreen.storyboard */; };
+		CB98DDDB1CE9964200BCAB84 /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = CB98DDD71CE9964200BCAB84 /* Fraction.m */; };
+		CB98DDDC1CE9964200BCAB84 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = CB98DDD91CE9964200BCAB84 /* Calculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		CB98DDCB1CE994E300BCAB84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB98DDCE1CE994E300BCAB84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB98DDD01CE994E300BCAB84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB98DDD71CE9964200BCAB84 /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
+		CB98DDD81CE9964200BCAB84 /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
+		CB98DDD91CE9964200BCAB84 /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
+		CB98DDDA1CE9964200BCAB84 /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		CB98DDBE1CE994E300BCAB84 /* FractionCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				CB98DDD61CE9961700BCAB84 /* myfiles */,
 				CB98DDC21CE994E300BCAB84 /* AppDelegate.h */,
 				CB98DDC31CE994E300BCAB84 /* AppDelegate.m */,
 				CB98DDC51CE994E300BCAB84 /* ViewController.h */,
@@ -77,6 +84,17 @@
 				CB98DDC01CE994E300BCAB84 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB98DDD61CE9961700BCAB84 /* myfiles */ = {
+			isa = PBXGroup;
+			children = (
+				CB98DDD71CE9964200BCAB84 /* Fraction.m */,
+				CB98DDD81CE9964200BCAB84 /* Fraction.h */,
+				CB98DDD91CE9964200BCAB84 /* Calculator.m */,
+				CB98DDDA1CE9964200BCAB84 /* Calculator.h */,
+			);
+			name = myfiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +170,8 @@
 				CB98DDC71CE994E300BCAB84 /* ViewController.m in Sources */,
 				CB98DDC41CE994E300BCAB84 /* AppDelegate.m in Sources */,
 				CB98DDC11CE994E300BCAB84 /* main.m in Sources */,
+				CB98DDDB1CE9964200BCAB84 /* Fraction.m in Sources */,
+				CB98DDDC1CE9964200BCAB84 /* Calculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
